@@ -1,29 +1,5 @@
 {
-  "name": "jest-testing",
-  "jest": {
-    "verbose": true,
-    "coverageDirectory" : "coverage"
-  },
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/binarydevelop/jest-testing.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/binarydevelop/jest-testing/issues"
-  },
-  "homepage": "https://github.com/binarydevelop/jest-testing#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^27.5.1"
   }
 }
