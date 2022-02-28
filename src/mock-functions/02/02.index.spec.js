@@ -7,10 +7,13 @@ describe('Mock property', () => {
     test('Check Instances of the mocked Function', () => {
         const myMock = jest.fn();
         const a = new myMock();
+        a.name = 'A'
         const b = {};
+        b.name = 'B'
         const bound = myMock.bind(b);
         bound();
         console.log(myMock.mock.instances);
+        console.log('CALLS', myMock.mock.calls)
     })
 
     describe('Mock property calls', () => {
